@@ -1,0 +1,24 @@
+{
+  "name": "challengepinapp",
+  "version": "1.0.0",
+  "description": "This a automation web project for a challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "keywords": [
+    "Test",
+    "automation",
+    "web"
+  ],
+  "author": "Nahuel Trovato",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^14.0.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-mochawesome-reporter": "^3.8.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  }
+}

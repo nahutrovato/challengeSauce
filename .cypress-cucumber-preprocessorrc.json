@@ -1,0 +1,4 @@
+{
+    "nonGlobalStepDefinitions": false,
+    "stepDefinitions": "cypress/e2e/steps_definitions/"
+}
