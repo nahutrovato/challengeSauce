@@ -6,11 +6,11 @@ Given('the user logs into the Saucedemo website', () => {
     cy.visit(Cypress.env('BASE_URL'));
 });
 
-When('the user enters a correct username {string}', (username) => {
+When('the user enters a username {string}', (username) => {
     Login.enterUsername(Cypress.env(username));
 });
 
-And('the user enters the correct password {string}', (password) => {
+And('the user enters the password {string}', (password) => {
     Login.enterPassword(Cypress.env(password));
 });
 
