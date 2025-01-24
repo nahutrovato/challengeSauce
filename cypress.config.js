@@ -13,6 +13,7 @@ module.exports = defineConfig({
         BASE_URL: process.env.BASE_URL,
         USERNAME_CORRECT: process.env.USERNAME_CORRECT,
         PASSWORD_CORRECT: process.env.PASSWORD_CORRECT,
+        API_URL: process.env.API_URL,
       };
       return config;
     },
