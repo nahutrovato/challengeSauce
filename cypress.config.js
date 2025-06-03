@@ -14,6 +14,7 @@ module.exports = defineConfig({
         USERNAME_CORRECT: process.env.USERNAME_CORRECT,
         PASSWORD_CORRECT: process.env.PASSWORD_CORRECT,
         API_URL: process.env.API_URL,
+        LONDON_EXCHANGE_URL: process.env.LONDON_EXCHANGE_URL,
       };
       return config;
     },
